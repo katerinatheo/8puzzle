@@ -3,7 +3,7 @@ CFLAGS := -Wall -g
 INCLUDE :=
 LIBS :=
 SRC := $(wildcard *.c)
-EXECNAME := ex1.out
+EXECNAME := 8puzzle.out
 
 ex1: $(SRC)
 	$(CC) $(CFLAGS) $(SRC) -o $(EXECNAME)
